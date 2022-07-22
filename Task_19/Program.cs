@@ -12,10 +12,11 @@ Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int temp = num;
 int revers = 0;
-int digit = 0;
 
 string Palindrome(int num)
 {
+    int digit = 0;
+    
     while (num > 0)
     {
         digit = num % 10;
